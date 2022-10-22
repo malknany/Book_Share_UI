@@ -32,13 +32,13 @@ class _TopicsScreenState extends State<TopicsScreen> {
                     Image.asset('assets/image/backgroundBar2.png',
                         fit: BoxFit.fitHeight,
                         width: double.infinity,
-                        height: 175),
+                        height: 175.h),
                     Container(
                       margin: EdgeInsets.only(left: 25.5.w, top: 25.h),
-                      child: const Text(
+                      child:  Text(
                         'Welcome \n Choose the topics',
                         style: TextStyle(
-                          fontSize: 22,
+                          fontSize: 22.sp,
                           color: Colors.white,
                         ),
                         textAlign: TextAlign.left,
@@ -56,7 +56,7 @@ class _TopicsScreenState extends State<TopicsScreen> {
                 Text(
                   'More Topics',
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 15.sp,
                     color: MyColor.myPink,
                     decoration: TextDecoration.underline,
                     decorationColor: MyColor.myPink,
@@ -71,16 +71,16 @@ class _TopicsScreenState extends State<TopicsScreen> {
                   },
                   style: ElevatedButton.styleFrom(
                     shape: BeveledRectangleBorder(
-                      borderRadius: BorderRadius.circular(5),
+                      borderRadius: BorderRadius.circular(5.r),
                     ),
                     backgroundColor: MyColor.myPink,
                     fixedSize: Size(327.w, 45.h),
                   ),
-                  child: const Text(
+                  child:  Text(
                     'Apply',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 20,
+                      fontSize: 20.sp,
                     ),
                   ),
                 ),

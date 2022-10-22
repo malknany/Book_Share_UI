@@ -18,7 +18,7 @@ class ContainerWithColor extends StatelessWidget {
       height: 202.h,
       decoration: BoxDecoration(
         color: controller.bookInfo[index].myColor,
-        borderRadius: BorderRadius.circular(15),
+        borderRadius: BorderRadius.circular(15.r)
       ),
       child: Column(
         children: [
@@ -27,8 +27,8 @@ class ContainerWithColor extends StatelessWidget {
           ),
           Text(
             controller.bookInfo[index].title,
-            style: const TextStyle(
-              fontSize: 15,
+            style:  TextStyle(
+              fontSize: 15.sp,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),

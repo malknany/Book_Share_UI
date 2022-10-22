@@ -22,7 +22,7 @@ class SearchBar extends StatelessWidget {
             ),
             labelText: 'Search Books, Authors',
             border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.circular(20.r),
               borderSide: BorderSide.none,
             )),
       ),

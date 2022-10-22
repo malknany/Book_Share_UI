@@ -29,7 +29,7 @@ class ProfileScreen extends StatelessWidget {
                   'Account',
                   style: TextStyle(
                     color: MyColor.myColorTextProfile,
-                    fontSize: 14,
+                    fontSize: 14.sp,
                   ),
                 ),
               ),
@@ -43,12 +43,12 @@ class ProfileScreen extends StatelessWidget {
                   'Settings',
                   style: TextStyle(
                     color: MyColor.myColorTextProfile,
-                    fontSize: 14,
+                    fontSize: 14.sp,
                   ),
                 ),
               ),
-              const SizedBox(
-                height: 5,
+               SizedBox(
+                height: 5.h,
               ),
               Container(
                 margin: const EdgeInsets.only(left: 16),
@@ -56,7 +56,7 @@ class ProfileScreen extends StatelessWidget {
                 height: 300.h,
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(4),
+                  borderRadius: BorderRadius.circular(4.r),
                 ),
                 child: Column(
                   children: [
@@ -66,7 +66,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       leading: CircleAvatar(backgroundColor: Colors.black),
                     ),
-                    Divider(color: MyColor.myColorDivider, height: 2),
+                    Divider(color: MyColor.myColorDivider, height: 2.h),
                     ListTile(
                       title: const Text('Notification'),
                       leading: Icon(
@@ -76,7 +76,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     Divider(
                       color: MyColor.myColorDivider,
-                      height: 2,
+                      height: 2.h,
                     ),
                     ListTile(
                       title: const Text('Language'),
@@ -88,7 +88,7 @@ class ProfileScreen extends StatelessWidget {
                     Divider(
                       color: MyColor.myColorDivider,
                       thickness: 0,
-                      height: 2,
+                      height: 2.h,
                     ),
                     ListTile(
                       title: const Text('Help '),
@@ -100,7 +100,7 @@ class ProfileScreen extends StatelessWidget {
                     Divider(
                       color: MyColor.myColorDivider,
                       thickness: 0,
-                      height: 2,
+                      height: 2.h,
                     ),
                     ListTile(
                       title: const Text('Sign Out'),
@@ -117,7 +117,7 @@ class ProfileScreen extends StatelessWidget {
               )
             ],
           ),
-        )),
+        ),),
       ),
     );
   }

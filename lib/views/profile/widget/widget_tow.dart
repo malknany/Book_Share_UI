@@ -14,7 +14,7 @@ class WidgetTow extends StatelessWidget {
       height: 180.h,
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(4),
+        borderRadius: BorderRadius.circular(4.r),
       ),
       child: Column(
         children: [
@@ -25,7 +25,7 @@ class WidgetTow extends StatelessWidget {
               color: MyColor.myPink,
             ),
           ),
-          Divider(color: MyColor.myColorDivider, height: 2),
+          Divider(color: MyColor.myColorDivider, height: 2.r),
           ListTile(
             title: const Text('Purchases'),
             leading: Icon(
@@ -35,7 +35,7 @@ class WidgetTow extends StatelessWidget {
           ),
           Divider(
             color: MyColor.myColorDivider,
-            height: 2,
+            height: 2.h,
           ),
           ListTile(
             title: const Text('Account'),

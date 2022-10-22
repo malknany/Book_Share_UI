@@ -1,5 +1,5 @@
 import 'package:bookshare/componant/searsh_bar.dart';
-import 'package:bookshare/views/library/widget/continarebook_with_color.dart';
+import 'package:bookshare/views/library/widget/continare_book_with_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -28,26 +28,26 @@ class _LibraryScreenState extends State<LibraryScreen> {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: const [
+              children:  [
                 Text(
                   'General',
                   style: TextStyle(
-                      color: Color(0xffFF6EA1),
-                      fontSize: 24,
+                      color: const Color(0xffFF6EA1),
+                      fontSize: 24.sp,
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
                   'New',
                   style: TextStyle(
-                    color: Color(0xff242126),
-                    fontSize: 24,
+                    color: const Color(0xff242126),
+                    fontSize: 24.sp,
                   ),
                 ),
                 Text(
                   'Most Viewed',
                   style: TextStyle(
-                    color: Color(0xff242126),
-                    fontSize: 24,
+                    color: const Color(0xff242126),
+                    fontSize: 24.sp,
                   ),
                 ),
               ],
@@ -63,7 +63,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
                   (index) => ContainerWithColor(
                         index: index,
                         controller: controller,
-                      )),
+                      ),),
             )
           ],
         ),

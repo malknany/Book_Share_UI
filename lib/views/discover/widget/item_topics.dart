@@ -4,10 +4,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../topics/cntroller.dart';
 
 class TopicsItemHome extends StatelessWidget {
-  TopicsItemHome({Key? key, required this.controller, required this.index})
+ const TopicsItemHome({Key? key, required this.controller, required this.index})
       : super(key: key);
-  TopicsController controller;
-  int index;
+ final TopicsController controller;
+ final  int index;
 
   @override
   Widget build(BuildContext context) {

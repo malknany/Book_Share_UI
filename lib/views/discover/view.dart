@@ -1,6 +1,6 @@
-import 'package:bookshare/views/discover/widget/bookitem.dart';
-import 'package:bookshare/views/discover/widget/slider.dart';
-import 'package:bookshare/views/discover/widget/topicsitem.dart';
+import 'package:bookshare/views/discover/widget/item_book.dart';
+import 'package:bookshare/views/discover/widget/item_slider.dart';
+import 'package:bookshare/views/discover/widget/item_topics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -34,15 +34,15 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                     'assets/image/backgroundBar2.png',
                     fit: BoxFit.fitHeight,
                     width: double.infinity,
-                    height: 320,
+                    height: 320.h,
                   ),
                   const SearchBar(),
                   Container(
                     margin: EdgeInsets.only(left: 16.5.w, top: 70.h),
-                    child: const Text(
+                    child:  Text(
                       'Our Top Picks',
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 24.sp,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.left,
@@ -78,7 +78,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   'Trending Books',
                   style: TextStyle(
                     color: MyColor.myBlack,
-                    fontSize: 24,
+                    fontSize: 24.sp,
                   ),
                 ),
               ),
@@ -103,7 +103,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   'Best Share',
                   style: TextStyle(
                     color: MyColor.myBlack,
-                    fontSize: 24,
+                    fontSize: 24.sp,
                   ),
                 ),
               ),
@@ -130,7 +130,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   'Recently Viewed',
                   style: TextStyle(
                     color: MyColor.myBlack,
-                    fontSize: 24,
+                    fontSize: 24.sp,
                   ),
                 ),
               ),

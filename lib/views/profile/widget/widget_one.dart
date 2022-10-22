@@ -14,14 +14,14 @@ class WidgetOne extends StatelessWidget {
           'assets/image/backgroundBar2.png',
           fit: BoxFit.fitHeight,
           width: double.infinity,
-          height: 175,
+          height: 175.h,
         ),
         Container(
           margin: EdgeInsets.only(left: 25.5.w, top: 80.h),
-          child: const Text(
+          child:  Text(
             'Mohmed Alkinany',
             style: TextStyle(
-              fontSize: 22,
+              fontSize: 22.sp,
               color: Colors.white,
             ),
             textAlign: TextAlign.left,
@@ -37,17 +37,17 @@ class WidgetOne extends StatelessWidget {
                   Text(
                     '21',
                     style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 24.sp,
                         color: MyColor.myColorTextProfile,
                         fontWeight: FontWeight.bold),
                   ),
-                  const SizedBox(
-                    height: 10,
+                   SizedBox(
+                    height: 10.h,
                   ),
                   Text(
                     'Books',
                     style: TextStyle(
-                        fontSize: 10, color: MyColor.myColorTextProfile),
+                        fontSize: 10.sp, color: MyColor.myColorTextProfile),
                   ),
                 ],
               ),
@@ -60,7 +60,7 @@ class WidgetOne extends StatelessWidget {
                   Text(
                     '50k',
                     style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 24.sp,
                         color: MyColor.myColorTextProfile,
                         fontWeight: FontWeight.bold),
                   ),
@@ -70,7 +70,7 @@ class WidgetOne extends StatelessWidget {
                   Text(
                     'Followers',
                     style: TextStyle(
-                        fontSize: 10, color: MyColor.myColorTextProfile),
+                        fontSize: 10.sp, color: MyColor.myColorTextProfile),
                   ),
                 ],
               ),
@@ -83,7 +83,7 @@ class WidgetOne extends StatelessWidget {
                   Text(
                     '30',
                     style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 24.sp,
                         color: MyColor.myColorTextProfile,
                         fontWeight: FontWeight.bold),
                   ),
@@ -93,7 +93,7 @@ class WidgetOne extends StatelessWidget {
                   Text(
                     'Following',
                     style: TextStyle(
-                        fontSize: 10, color: MyColor.myColorTextProfile),
+                        fontSize: 10.sp, color: MyColor.myColorTextProfile),
                   ),
                 ],
               ),
@@ -118,14 +118,14 @@ class WidgetOne extends StatelessWidget {
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
                     shape: BeveledRectangleBorder(
-                      borderRadius: BorderRadius.circular(5),
+                      borderRadius: BorderRadius.circular(5.r),
                     ),
                     backgroundColor: MyColor.myPink,
                     fixedSize: Size(100.w, 30.h)),
-                child: const Text(
+                child:  Text(
                   'Edit Profile',
                   style: TextStyle(
-                    fontSize: 13,
+                    fontSize: 13.sp,
                     color: Colors.white,
                   ),
                 ),

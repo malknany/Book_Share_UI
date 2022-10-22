@@ -24,7 +24,7 @@ class WidgetThere extends StatelessWidget {
             ),
             leading: CircleAvatar(backgroundColor: Colors.black),
           ),
-          Divider(color: MyColor.myColorDivider, height: 2),
+          Divider(color: MyColor.myColorDivider, height: 2.h),
           ListTile(
             title: const Text('Notification'),
             leading: Icon(
@@ -34,7 +34,7 @@ class WidgetThere extends StatelessWidget {
           ),
           Divider(
             color: MyColor.myColorDivider,
-            height: 2,
+            height: 2.h,
           ),
           ListTile(
             title: const Text('Language'),
@@ -46,7 +46,7 @@ class WidgetThere extends StatelessWidget {
           Divider(
             color: MyColor.myColorDivider,
             thickness: 0,
-            height: 2,
+            height: 2.h,
           ),
           ListTile(
             title: const Text('Help '),
@@ -58,7 +58,7 @@ class WidgetThere extends StatelessWidget {
           Divider(
             color: MyColor.myColorDivider,
             thickness: 0,
-            height: 2,
+            height: 2.h,
           ),
           ListTile(
             title: const Text('Sign Out'),

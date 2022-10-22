@@ -74,7 +74,7 @@ class _TopicItemState extends State<TopicItem> {
                 Text(
                   widget.control.topic[index].text,
                   style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 16.sp,
                       color: widget.control.topic[index].isSelect
                           ? const Color(0xffFF6EA1)
                           : const Color(0xff17191D)),

@@ -2,12 +2,12 @@ import 'model.dart';
 
 class BookController {
   List<BookModel> book = [
-    BookModel(img: 'assets/image/book2/1.png', title: '', subTitle: ''),
-    BookModel(img: 'assets/image/book2/2.png', title: '', subTitle: ''),
-    BookModel(img: 'assets/image/book2/3.png', title: '', subTitle: ''),
-    BookModel(img: 'assets/image/book2/4.png', title: '', subTitle: ''),
-    BookModel(img: 'assets/image/book2/5.png', title: '', subTitle: ''),
-    BookModel(img: 'assets/image/book2/6.png', title: '', subTitle: ''),
+    BookModel(img: 'assets/image/book2/1.png',),
+    BookModel(img: 'assets/image/book2/2.png',),
+    BookModel(img: 'assets/image/book2/3.png',),
+    BookModel(img: 'assets/image/book2/4.png',),
+    BookModel(img: 'assets/image/book2/5.png',),
+    BookModel(img: 'assets/image/book2/6.png',),
     BookModel(
         img: 'assets/image/book2/7.png',
         title: 'Fatherhood',

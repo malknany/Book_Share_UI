@@ -38,11 +38,11 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       _index = 2;
                     }
                   },
-                  child: const Text(
+                  child:  Text(
                     'Skip',
                     style: TextStyle(
-                      fontSize: 16,
-                      color: Color(0xff969696),
+                      fontSize: 16.sp,
+                      color: const Color(0xff969696),
                     ),
                   ),
                 ),
@@ -81,8 +81,8 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               height: 34.h,
             ),
             SizedBox(
-              width: 60,
-              height: 10,
+              width: 60.w,
+              height: 10.h,
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -90,10 +90,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 children: List.generate(
                     control.onBoarding.length,
                     (index) => CircleAvatar(
-                          radius: 10,
+                          radius: 10.r,
                           backgroundColor: MyColor.myPink,
                           child: CircleAvatar(
-                            radius: 4,
+                            radius: 4.r,
                             backgroundColor:
                                 index == _index ? MyColor.myPink : Colors.white,
                           ),
@@ -111,13 +111,13 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         fixedSize: Size(184.w, 45.h),
                         backgroundColor: MyColor.myPink,
                         shape: BeveledRectangleBorder(
-                          borderRadius: BorderRadius.circular(5),
+                          borderRadius: BorderRadius.circular(5.r),
                         )),
-                    child: const Text(
+                    child:  Text(
                       'Get Started',
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 20,
+                        fontSize: 20.sp,
                       ),
                     ),
                   )

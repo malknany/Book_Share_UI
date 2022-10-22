@@ -31,9 +31,9 @@ class ItemBookInfoScreen extends StatelessWidget {
             children: [
               Text(
                 controller.bookInfo[index].title,
-                style: const TextStyle(
-                    fontSize: 20,
-                    color: Color(0xff242126),
+                style:  TextStyle(
+                    fontSize: 20.sp,
+                    color: const Color(0xff242126),
                     fontWeight: FontWeight.w400),
               ),
               SizedBox(
@@ -41,7 +41,7 @@ class ItemBookInfoScreen extends StatelessWidget {
               ),
               Text(
                 controller.bookInfo[index].subTitle,
-                style: TextStyle(fontSize: 12, color: MyColor.myBlack),
+                style: TextStyle(fontSize: 12.sp, color: MyColor.myBlack),
               ),
               SizedBox(
                 height: 13.h,
@@ -59,10 +59,10 @@ class ItemBookInfoScreen extends StatelessWidget {
                         )),
               ),
               Text(controller.bookInfo[index].description,
-                  style: TextStyle(fontSize: 10, color: MyColor.myBlack),
+                  style: TextStyle(fontSize: 10.sp, color: MyColor.myBlack),
                   overflow: TextOverflow.ellipsis),
-              const SizedBox(
-                height: 20,
+               SizedBox(
+                height: 20.h,
               ),
               Row(
                 children: [
@@ -72,11 +72,11 @@ class ItemBookInfoScreen extends StatelessWidget {
                       fixedSize: Size(100.w, 29.h),
                       backgroundColor: const Color(0xffFF6EA1),
                       shape: BeveledRectangleBorder(
-                          borderRadius: BorderRadius.circular(5)),
+                          borderRadius: BorderRadius.circular(5.r),),
                     ),
-                    child: const Text(
+                    child:  Text(
                       'Add to cart',
-                      style: TextStyle(fontSize: 10, color: Colors.white),
+                      style: TextStyle(fontSize: 10.sp, color: Colors.white),
                     ),
                   ),
                   SizedBox(
@@ -88,13 +88,13 @@ class ItemBookInfoScreen extends StatelessWidget {
                       fixedSize: Size(100.w, 29.h),
                       backgroundColor: Colors.white,
                       shape: BeveledRectangleBorder(
-                        borderRadius: BorderRadius.circular(5),
+                        borderRadius: BorderRadius.circular(5.r),
                       ),
                       shadowColor: const Color(0xff767676),
                     ),
-                    child: const Text(
+                    child:  Text(
                       'Add to wishlist',
-                      style: TextStyle(fontSize: 10, color: Colors.black),
+                      style: TextStyle(fontSize: 10.sp, color: Colors.black),
                     ),
                   ),
                 ],
