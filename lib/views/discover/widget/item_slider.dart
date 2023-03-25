@@ -14,17 +14,22 @@ class DefaultSlider extends StatelessWidget {
             width: 100,
             child: Column(
               children: [
-                Image.asset(
-                  'assets/image/book/1.png',
-                  height: 110.h,
-                  width: 100.w,
+                Expanded(
+                  flex: 4,
+                  child: Image.asset(
+                    'assets/image/book/1.png',
+                    //height: 80.h,
+                    //width: 100.w,
+                  ),
                 ),
                 const SizedBox(
                   height: 5,
                 ),
-                const Text(
-                  'Fatherhood',
-                  style: TextStyle(fontSize: 16, color: Colors.white),
+                const Expanded(
+                  child: Text(
+                    'Fatherhood',
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
                 ),
               ],
             ),
@@ -34,17 +39,20 @@ class DefaultSlider extends StatelessWidget {
             width: 100,
             child: Column(
               children: [
-                Image.asset(
-                  'assets/image/book/2.png',
-                  height: 110.h,
-                  width: 100.w,
+                Expanded(
+                  flex: 6,
+                  child: Image.asset(
+                    'assets/image/book/2.png',
+                  ),
                 ),
                 const SizedBox(
                   height: 5,
                 ),
-                const Text(
-                  'Fatherhood',
-                  style: TextStyle(fontSize: 16, color: Colors.white),
+                const Expanded(
+                  child: Text(
+                    'Fatherhood',
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
                 ),
               ],
             ),
@@ -54,17 +62,20 @@ class DefaultSlider extends StatelessWidget {
             width: 100,
             child: Column(
               children: [
-                Image.asset(
-                  'assets/image/book/3.png',
-                  height: 110.h,
-                  width: 100.w,
+                Expanded(
+                  flex: 5,
+                  child: Image.asset(
+                    'assets/image/book/3.png',
+                  ),
                 ),
                 const SizedBox(
                   height: 5,
                 ),
-                const Text(
-                  'Fatherhood',
-                  style: TextStyle(fontSize: 16, color: Colors.white),
+                const Expanded(
+                  child: Text(
+                    'Fatherhood',
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
                 ),
               ],
             ),
@@ -74,14 +85,20 @@ class DefaultSlider extends StatelessWidget {
             width: 100,
             child: Column(
               children: [
-                Image.asset('assets/image/book/4.png',
-                    height: 110.h, width: 100.w),
+                Expanded(
+                  flex: 5,
+                  child: Image.asset(
+                    'assets/image/book/4.png',
+                  ),
+                ),
                 const SizedBox(
                   height: 5,
                 ),
-                const Text(
-                  'Fatherhood',
-                  style: TextStyle(fontSize: 16, color: Colors.white),
+                const Expanded(
+                  child: Text(
+                    'Fatherhood',
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
                 ),
               ],
             ),
@@ -91,14 +108,19 @@ class DefaultSlider extends StatelessWidget {
             height: 100,
             child: Column(
               children: [
-                Image.asset('assets/image/book/5.png',
-                    height: 110.h, width: 100.w),
+                Expanded(
+                  flex: 5,
+                  child: Image.asset('assets/image/book/5.png',
+                      height: 110.h, width: 100.w),
+                ),
                 const SizedBox(
                   height: 5,
                 ),
-                const Text(
-                  'Fatherhood',
-                  style: TextStyle(fontSize: 16, color: Colors.white),
+                const Expanded(
+                  child: Text(
+                    'Fatherhood',
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
                 ),
               ],
             ),

@@ -49,7 +49,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                     ),
                   ),
                   const Padding(
-                    padding: EdgeInsets.only(top: 120.0),
+                    padding: EdgeInsets.only(top: 150.0),
                     child: DefaultSlider(),
                   )
                 ],

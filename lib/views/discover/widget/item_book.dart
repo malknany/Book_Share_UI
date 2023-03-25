@@ -3,29 +3,33 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BookDetailsItem extends StatelessWidget {
-  BookDetailsItem(
+  const BookDetailsItem(
       {Key? key,
       required this.controller,
       required this.index,
       required this.item})
       : super(key: key);
-  BookController controller;
-  int index, item;
+  final BookController controller;
+  final int index, item;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 250,
+      height: 250.h,
+      width: 150.w,
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset(controller.book[index + item].img,
-              height: 200.h, width: 150.w),
+          Expanded(
+            flex: 15,
+            child: Image.asset(
+              controller.book[index + item].img,
+            ),
+          ),
           SizedBox(
             height: 7.h,
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 28.0),
+          Expanded(
             child: Text(
               controller.book[index + item].title,
               style: const TextStyle(
@@ -37,8 +41,7 @@ class BookDetailsItem extends StatelessWidget {
           SizedBox(
             height: 5.h,
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 28.0),
+          Expanded(
             child: Text(
               controller.book[index + item].subTitle,
               style: const TextStyle(fontSize: 11, color: Color(0xff212121)),
